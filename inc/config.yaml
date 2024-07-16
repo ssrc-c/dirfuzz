@@ -1,0 +1,45 @@
+http:
+  retry: 1                    #请求出错时重试次数，1则重试1次。0则不重试
+  timeout: 14                 #请求超时时间s
+  max_worker: 70              #请求线程
+  autoDomainBackupDic: True   #根据域名自动生成基于域名的备份文件字典
+  headers:
+    User-Agent: Mozilla/5.0 (Windows NT 7.0; rv:78.0) Gecko/20100101 Firefox/78.0
+
+common:
+  dic: dicc.txt         #默认字典
+  auto_save: False      #扫描单个url时，结果是否自动保存
+
+type:
+  #根据网站域名自动生成备份文件后缀，定义后缀类型为：
+  domain_backup_format:  
+    - ".zip"  
+    - ".rar"  
+    - ".7z"  
+    - ".tar"  
+    - ".gz"  
+    - ".tar.7z"  
+    - ".tar.gz"
+
+  #可能存在的敏感备份文件后缀，如压缩文件、数据库备份文件等
+  sensitive_backup_format:  
+    - ".zip"  
+    - ".rar"  
+    - ".7z"  
+    - ".tar"  
+    - ".gz"  
+    - ".tar.7z"  
+    - ".tar.gz"
+    - ".old"
+    - ".bak"
+    - ".sql"
+    - ".db"
+
+  #网站语言类型
+  language_type:
+    - ".php"
+    - ".jsp"
+    - ".jspx"
+    - ".asp"
+    - ".aspx"
+

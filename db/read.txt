@@ -1,0 +1,2 @@
+字典中的%t会替换为config.yaml中language_type列表中的网站脚本语言类型如php,jsp,asp等
+字典中的%b会替换为config.yaml中sensitive_backup_format列表中的值如rar,tar,zip等
