@@ -3,7 +3,7 @@ DirFuzz是一款高效且精准的Python 3敏感目录与文件扫描工具。�
 
 - 建议环境：python 3.10
 
-![image.png](https://cdn.nlark.com/yuque/0/2024/png/22971806/1721109425161-4d97b1a4-1896-4c67-851e-87006bc4337d.png#averageHue=%23363636&clientId=u0fe91aca-1232-4&from=paste&height=392&id=u1a7c0eaf&originHeight=784&originWidth=1753&originalType=binary&ratio=2&rotation=0&showTitle=false&size=514217&status=done&style=none&taskId=u603ae170-d18b-442d-9ff8-a46668135e3&title=&width=876.5)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/22971806/1721109466551-9111a657-1a90-43e9-a6f0-e6af62f0a964.png#averageHue=%233b3b39&clientId=u0fe91aca-1232-4&from=paste&height=420&id=u4286c9f4&originHeight=839&originWidth=1881&originalType=binary&ratio=2&rotation=0&showTitle=false&size=592156&status=done&style=none&taskId=u3320f288-da72-4cf9-aa6b-0dc9b349d03&title=&width=940.5)
 ## dirfuzz目录说明
 /db/dicc.txt存放着默认字典，可以根据需要自动添加删除。其中
 
